@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment & secrets (we have none yet, but plan ahead)
+.env
+
+# VS Code (keep settings, ignore workspace state)
+.vscode/*
+!.vscode/settings.json
+
+# Local data
+data/
+*.pkl
+*.csv
+*.parquet
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
